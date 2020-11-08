@@ -7,6 +7,10 @@
     padding: 0;
 }
 
+.logo {
+    width: 35px;
+}
+
 .navbar {
     position: relative;
     z-index: 1;
@@ -257,7 +261,7 @@
     }
 
     .container-landing {
-        height: 130vh;
+        height: 150vh !important;
     }
 
     .conversation {
