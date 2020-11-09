@@ -243,6 +243,17 @@ body {
     .buttonLogin:active {
         background-color: #8e44ad;
     }
+
+    .buttonLogin {
+        text-align: right;
+        border: none !important;
+        display: block;
+        border-radius: 6px;
+        background-color: #9b59b6;
+        padding: 7px 10px;
+        text-decoration: none;
+        color: #fff;
+    }
     
 }
 
@@ -310,6 +321,17 @@ body {
 
     .buttonLogin:active {
         background-color: #8e44ad;
+    }
+
+    .buttonLogin {
+        text-align: right;
+        border: none !important;
+        display: block;
+        border-radius: 6px;
+        background-color: #9b59b6;
+        padding: 7px 10px;
+        text-decoration: none;
+        color: #fff;
     }
     
 }
