@@ -66,7 +66,7 @@ body {
 
 .changing {
     position: relative;
-    top: -60px;
+    top: -55px;
     display: flex;
     flex-direction: row;
 }
@@ -105,7 +105,7 @@ body {
 }
 
 .buttonChange {
-    margin-top: -50px;
+    margin-top: -45px;
     margin-right: 40px;
 }
 
@@ -185,12 +185,12 @@ body {
 @media (max-width:576px) {
 
     body {
-        height: auto;
+        height: auto !important;
     }
 
     .card {
         justify-content: center;
-        height: 140vh;
+        height: 140vh !important;
         width: 90%;
         box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
         overflow: hidden;
@@ -204,19 +204,24 @@ body {
         margin-top: 10px;
     }
 
+
+    .card .security {
+        width: 100%;
+    }
+
     .loginSebagai {
-        margin-top: -120px;
-        margin-left: 55px;
+        margin-top: -120px !important;
+        margin-left: 55px !important;
     }
 
     .changing {
-        top: -150px;
+        top: -150px !important;
     }
 
     .buttonChange {
-        margin-top: -100px;
-        margin-right: 35px;
-        text-align: center;
+        margin-top: -100px !important;
+        margin-right: 35px !important;
+        text-align: center !important;
     }
 
     .nav-link:active {
@@ -264,6 +269,10 @@ body {
         margin-top: 10px;
     }
 
+    .card .security {
+        width: 100%;
+    }
+
     .loginSebagai {
         margin-top: -120px;
         margin-left: 140px;
@@ -277,6 +286,10 @@ body {
         margin-left: 40px;
         margin-top: -100px;
         text-align: center !important;
+    }
+
+    .buttonChange a {
+        padding: 7px 10px;
     }
 
     .nav-link:active {
