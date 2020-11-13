@@ -93,11 +93,12 @@
 .container-landing {
     background: linear-gradient(45deg, #7ed6df, #22a6b3);
     position: relative;
-    height: 100vh;
+    height: 100.7vh;
     margin-top: -75px;
     overflow: hidden;
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 
 .conversation {
@@ -269,6 +270,15 @@
         margin-top: 80px;
     }
 
+    .lanLogin:active {
+        color: rgb(255, 255, 255);  
+        background-color: #fce576;
+    }
+    .read:active {
+        background-color: #f6e58d;
+        color: white;
+    }
+
     
 }
 
@@ -284,7 +294,7 @@
         margin-right: 0px;
     }
 
-    .navLogin:hover {
+    .navLogin:active {
         width: 100%;
         color: white;
         background-color: #fce576;
@@ -294,7 +304,7 @@
         border-radius: 6px;
     }
 
-    .nav-link:hover {
+    .nav-link:active {
         background-color: rosybrown;
         border-radius: 6px;
     }
@@ -352,8 +362,21 @@
         margin-top: 4px;
     }
 
+    .navSignup:active {
+        background-color: #f6e58d;
+    }
+
     .container-landing {
         height: 300vh;
+    }
+
+    .lanLogin:active {
+        color: rgb(255, 255, 255);  
+        background-color: #fce576;
+    }
+    .read:active {
+        background-color: #f6e58d;
+        color: white;
     }
 }
 

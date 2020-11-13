@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+* {
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.nav {
+    display: none;
+    position: fixed;
+    width: 60px;
+    height: 100%;
+    background-color: teal;
+    transition: .5s;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.6);
+    overflow-y: auto;
+    
+}
+
+
+.nav.active {
+    display: block;
+    width: 60px;
+}
+
+.nav.active:hover {
+    width: 200px;
+}
+
+.nav ul {
+    padding-left: 0px !important;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+}
+
+.nav ul li {
+    position: relative;
+    width: 100%;
+    list-style: none;
+    
+}
+
+.nav ul li:hover {
+    background-color: rosybrown;
+}
+
+.nav ul li a {
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav ul li a .icon {
+    padding-left: 16px;
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.nav ul li a .icon .fa {
+    font-size: 24px;
+}
+
+.nav ul li a .title {
+    position: relative;
+    display: block;
+    min-width: 60px;
+    padding: 0 10px;
+    height: 60px;
+    line-height: 60px;
+    text-align: start;
+    white-space: nowrap;
+}
+
+.toggle {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    background-color: teal;
+    opacity: 0.7;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.toggle:hover, .toggle:active {
+    background-color: teal;
+}
+
+.toggle .fas {
+    color: #fff;
+    font-size: 24px;
+}
+
+.toggle .fas:active, .toggle .fas:hover {
+    color: #fff;
+}
+
+
+.toggle.active {
+    background-color: rgb(2, 80, 80);
+
+}
+
+
+/* .toggle::before {
+    content: '\f0c9';
+    font-family: fontAwesome;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    line-height: 60px;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+} */
+
+/* .toggle.active{
+    content: '\f00d';
+} */
+
+.card {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 5px;
+}
+
+.imgAcc {
+    display: none;
+    min-width: 200px;
+    white-space: nowrap;
+    text-align: center !important;
+    padding-bottom: 4px;
+}
+
+.accountable {
+    display: block !important;
+}
+
+
+
+.imgAcc h5 {
+    color: #fff;
+    text-align: center !important;
+    font-size: 20px !important;
+    position: relative;
+    display: block;
+    min-width: 60px;
+}
+
+.imgAcc p {
+    color: #fff;
+    position: relative;
+    display: block;
+    min-width: 60px;
+}
+
+
+.imgAcc img {
+    border-radius: 50px !important;
+    width: 100px;
+    height: 100px;
+}
+
+.schedule {
+    max-height: 43vh;
+}
+
+.schedulebody {
+    overflow-y: scroll;
+}
+
+.announcement {
+    max-height: 43vh;
+}
+
+.announcementbody {
+    overflow-y: auto;
+}
+
+
+
+
+
+@media (max-width: 576px) {
+    .nav {
+        width: 60px;
+    }
+    
+    .nav.active {
+    left: 0px;
+    width: 100%;
+    }
+
+    .schedule {
+        position: absolute;
+        bottom: -1400px !important;
+        margin-right: 15px;
+        width: 297px !important;
+
+    }
+
+    .announcement {
+        position: absolute;
+        bottom: -600px !important;
+        margin-right: 15px;
+        width: 297px !important;
+    }
+
+
+    .notif {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+}
+
+
+@media (max-width: 767px) {
+
+.schedule {
+    position: absolute;
+    bottom: -1280px;
+    margin-right: 15px;
+    width: 591px;
+
+}
+
+.announcement {
+    position: absolute;
+    bottom: -350px;
+    margin-right: 15px;
+    width: 591px;
+}
+
+.nav {
+    display: block;
+    width: 60px;
+}
+
+.nav.active {
+left: 0px;
+width: 100%;
+}
+
+
+}
+
+
+
+
