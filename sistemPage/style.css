@@ -207,6 +207,7 @@ body {
 
 
 @media (max-width: 576px) {
+
     .nav {
         width: 60px;
     }
@@ -240,6 +241,11 @@ body {
         margin-top: 10px;
         margin-bottom: 30px;
     }
+
+    .container-fluid {
+        margin-right: -15px !important;
+    }
+    
 
     
 }
