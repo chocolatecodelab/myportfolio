@@ -209,6 +209,10 @@ body {
 
 @media (max-width: 576px) {
 
+    body {
+        overflow-x: hidden !important;
+    }
+
     .nav {
         width: 60px;
     }
@@ -253,6 +257,10 @@ body {
 
 
 @media (max-width: 767px) {
+
+    body {
+        overflow-x: hidden;
+    }
 
     .schedule {
         position: absolute;
