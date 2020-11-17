@@ -11,6 +11,10 @@
 body {
     min-height: 100vh;
     overflow-x: hidden;
+    background: url(./img/brainstorming_session__monochromatic.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .nav {
@@ -145,8 +149,82 @@ body {
     margin-bottom: 5px;
 }
 
+.card-footer {
+    color: #efe;
+}
+
 .card:hover {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+.card.kimia {
+    background-color: #55efc4;
+    color: #fff;
+}
+
+.card.biologi {
+    background-color: #74b9ff;
+    color: #fff;
+}
+
+.card.fisika {
+    background-color: #a29bfe;
+    color: #fff;
+}
+
+.card.matematika {
+    background-color: #fab1a0;
+    color: #fff;
+}
+
+.card.indonesia {
+    background-color: #ff7675;
+    color: #fff;
+}
+
+.card.inggris {
+    background-color: #e67db0;
+    color: #fff;
+}
+
+.card.pai {
+    background-color: #00b894;
+    color: #fff;
+}
+
+.card.pkn {
+    background-color: #78e08f;
+    color: #fff;
+}
+
+.card.olahraga {
+    background-color: #fa983a;
+    color: #fff;
+}
+
+.card.sejarah {
+    background-color:#e17055;
+    color: #fff;
+}
+
+.buttonCard {
+    display: block;
+    background-color: #fdcb6e;
+    color: white;
+}
+
+.buttonCard:hover {
+    background-color: #fcbc45;
+    color: white !important;
+}
+
+.buttonNotif {
+    background-color: teal;
+    color: white;
+}
+
+.buttonNotif:hover {
+    color: white;
 }
 
 .imgAcc {
@@ -203,8 +281,26 @@ body {
 }
 
 .title h1 {
-    color: rgb(29, 28, 28);
-    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    color:#fff;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    position: absolute;
+    bottom: -60px;
+    color: white;
+    width: 100%;
+    z-index: 1;
+}
+
+.footer .title p {
+    font-size: 15px !important;
+    font-weight: lighter;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
 }
 
 
@@ -215,6 +311,10 @@ body {
 
     body {
         overflow-x: hidden !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        height: 450vh !important;
     }
 
     .nav {
@@ -259,6 +359,14 @@ body {
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4) !important;
     }
     
+    .footer {
+        position: relative;
+        bottom: -670px !important;
+    }
+
+    .footer .title p {
+        font-size: 13px !important;
+    }
 
     
 }
@@ -268,21 +376,24 @@ body {
 
     body {
         overflow-x: hidden;
+        height:870vh;
     }
 
     .schedule {
         position: absolute;
-        bottom: -1280px;
+        bottom: -1525px;
         margin-right: 15px;
         width: 591px;
+        min-height: 400px;
 
     }
 
     .announcement {
         position: absolute;
-        bottom: -350px;
+        bottom: -850px;
         margin-right: 15px;
         width: 591px;
+        min-height: 400px;
     }
 
     .nav {
@@ -301,6 +412,15 @@ body {
 
     .card:active {
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    }
+
+    .footer {
+        position: relative;
+        bottom: -870px !important;
+    }
+
+    .footer .title p {
+        font-size: 13px !important;
     }
 
 
