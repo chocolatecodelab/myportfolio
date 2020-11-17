@@ -224,6 +224,7 @@ body {
 }
 
 .buttonNotif:hover {
+    background-color: rgb(2, 78, 78);
     color: white;
 }
 
