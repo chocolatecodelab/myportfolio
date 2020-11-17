@@ -332,7 +332,7 @@ body {
 
     .schedule {
         position: absolute;
-        bottom: -1400px !important;
+        bottom: -1525px !important;
         margin-right: 15px;
         width: 297px !important;
 
@@ -340,7 +340,7 @@ body {
 
     .announcement {
         position: absolute;
-        bottom: -600px !important;
+        bottom: -850px !important;
         margin-right: 15px;
         width: 297px !important;
     }
