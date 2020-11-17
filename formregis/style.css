@@ -248,11 +248,11 @@ body {
     }
 
     .buttonChange a:active {
-        background-color: #8e44ad;
+        background-color:#ffdd34 !important;
     }
 
     .buttonLogin:active {
-        background-color: #8e44ad;
+        background-color:#ffdd34 !important;
     }
 
     .buttonLogin {
@@ -260,10 +260,11 @@ body {
         border: none !important;
         display: block;
         border-radius: 6px;
-        background-color: #9b59b6;
+        background-color:#fae05f !important;
         padding: 7px 10px;
         text-decoration: none;
         color: #fff;
+        width: 100% !important;
     }
     
 }
@@ -333,22 +334,23 @@ body {
     }
 
     .buttonChange a:active {
-        background-color: #8e44ad;
+        background-color:#ffdd34;
     }
 
     .buttonLogin:active {
-        background-color: #8e44ad;
+        background-color:#ffdd34;
     }
 
     .buttonLogin {
-        text-align: right;
+        text-align: center;
         border: none !important;
         display: block;
         border-radius: 6px;
-        background-color: #9b59b6;
+        background-color:#fae05f;
         padding: 7px 10px;
         text-decoration: none;
         color: #fff;
+        width: 100%;
     }
     
 }
