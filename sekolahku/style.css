@@ -208,6 +208,11 @@ body {
     justify-content: space-evenly;
 }
 
+.parallax img {
+    width: 200px;
+    height: 200px;
+}
+
 .achievement h2 {
     margin-bottom: -10px;
 }
