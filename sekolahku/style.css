@@ -28,9 +28,16 @@ body {
     transition: 0.5s;
 }
 
+.dropdown-menu {
+    background: linear-gradient(45deg, #7ed6df, #22a6b3);
+    border: none;
+    position: relative;
+    left: -25px !important;
+}
+
+
 .navbar.sticky {
-    background: teal;
-    opacity: 0.8;
+    background: linear-gradient(45deg, rgba(129, 236, 236,0.7) , rgba(0, 206, 201,0.7));
 }
 
 .navbar-brand {
@@ -45,7 +52,7 @@ body {
 }
 
 .navbar-nav {
-    margin-right: 200px;
+    margin-right: 100px;
 }
 
 .navbar-brand h5:hover {
@@ -62,6 +69,8 @@ body {
 }
 
 .navLogin {
+    position: relative;
+    z-index: 3;
     display: block;
     padding: 7px 5px;
     cursor: pointer;
@@ -73,17 +82,43 @@ body {
     color: white;
 }
 
+.dropdown-menu.in {
+    position: absolute;
+    
+}
+
+
+.dropdown-menu.in a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu.in a:hover {
+    color:  #f6e58d;
+}
+
+
+ li.nav-item{
+    list-style: none !important;
+}
+
 .navLogin a {
     text-decoration: none;
     color: white;
+    z-index: -1;
+}
+
+.navLogin {
+    background-color: #f6e58d;
 }
 
 .navLogin:hover {
-    color: white;
-    background-color: #fce576;
+    color:#f6e58d;
+    background-color: #fffef9;
 }
 
-.navSignup {
+/* .navSignup {
     display: block;
     padding: 5px 5px;
     cursor: pointer;
@@ -103,7 +138,7 @@ body {
 .navSignup:hover {
     background-color: #f6e58d;
     color: white;
-}
+} */
 
 .landingpage {
     margin-top: 70px;
@@ -214,6 +249,7 @@ body {
 }
 
 .achievement h2 {
+    margin-top: 10px;
     margin-bottom: -10px;
 }
 
@@ -227,6 +263,250 @@ body {
     color: teal;
 }
 
+.site-main .achievement{
+    padding: 4rem 0;
+}
+
+.button-group .btn {
+    background: linear-gradient(45deg, #7ed6df, #22a6b3) ;
+    border-width: 2px;
+    color: white;
+    margin-bottom: 8px !important;
+}
+
+.button-group .btn:hover {
+    background: linear-gradient(45deg, #2dc5d6, #01818d) ;
+}
+
+.button-group .btn:active {
+    border: none;
+    border-width: 0;
+
+}
+
+.our-project .img:hover {
+    /* box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); */
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+/* facility */
+
+.container.carousel {
+    margin-top: -40px;
+    margin-bottom: 40px;
+}
+
+.facility h2 {
+    margin-bottom: -10px;
+}
+
+.facility hr {
+    border-top: 3px solid black;
+    width: 300px;
+    text-align: center;
+}
+
+.facility h2 span {
+    color: teal;
+}
+
+.facility .building{
+    background: #ffffff10;
+    box-shadow: var(--box-shadow);
+    margin: 3rem 0rem;
+}
+
+.facility .building .building-img{
+    padding: 2rem;
+}
+
+.facility .building .about-building{
+    padding-top: 2rem;
+}
+
+
+.facility .building .about-building p{
+    font-size: 14px;
+}
+
+.facility .owl-carousel .owl-dots .owl-dot.active span{
+    background: grey;
+    width: 12px;
+    height: 12px;
+}
+
+/* .building-img {
+    box-shadow: 0px 0px 12px rgba(57, 56, 61, 0.2);
+} */
+
+/* last facility */
+
+/* extra */
+.extra h2 {
+    margin-bottom: -10px;
+}
+
+.extra hr {
+    border-top: 3px solid black;
+    width: 300px;
+    text-align: center;
+}
+
+.extra h2 span {
+    color: teal;
+}
+/* last extra */
+
+
+/* last teacher */
+.teacher h2 {
+    margin-bottom: -10px;
+}
+
+.teacher hr {
+    border-top: 3px solid black;
+    width: 300px;
+    text-align: center;
+}
+
+.teacher h2 span {
+    color: teal;
+}
+
+
+.teacher .client{
+    background: #ffffff10;
+    box-shadow: var(--box-shadow);
+    margin: 3rem 0rem;
+}
+
+.teacher .client .client-img{
+    padding: 2rem;
+}
+
+.teacher .client .about-client{
+    padding-top: 2rem;
+}
+
+.teacher .client .about-client p{
+    font-size: 14px;
+}
+
+.teacher .owl-carousel .owl-item{
+    display: flex;
+    justify-content: center;
+    padding: 0 1.5rem;
+}
+
+.teacher .client.row {
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.2);
+}
+
+.teacher .owl-carousel .owl-dots .owl-dot.active span{
+    background: grey;
+    width: 12px;
+    height: 12px;
+}
+
+/* last teacher */
+
+/* Contact us */
+.contact h2 {
+    margin-bottom: -10px;
+}
+
+.contact hr {
+    border-top: 3px solid black;
+    width: 300px;
+    text-align: center;
+}
+
+.contact h2 span {
+    color: teal;
+}
+
+.formContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .formpart3 {
+    margin-left: 60px;
+} */
+
+.form-control {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 0;
+}
+
+.form-control:focus {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid linear-gradient(45deg, #3cc8d8, #10daec);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    border-radius: 0;
+}
+
+.contactContainer {
+    border-radius: 4px;
+    padding-top: 21px;
+    padding-bottom: 16px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.card {
+    background-color: teal;
+    color: #fff;
+    border: none;
+    height: 400px;
+}
+
+.card-title p {
+    font-weight: 500;
+}
+
+.card-sosmed {
+    margin-top: 60px;
+}
+
+.card-sosmed a {
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    margin: 8px;
+    border: 1px solid transparent;
+    padding: 10px 12px;
+    border-width: 2px;
+    background-color: #f6e58d;
+}
+
+.card-sosmed a.facebook {
+    padding: 10px 15px;
+}
+
+.card-sosmed a:hover {
+    background-color: white;
+    color:  #f6e58d;
+}
+
+button.btn {
+    background: linear-gradient(45deg, #7ed6df, #22a6b3) ;
+    border-width: 2px;
+    color: white;
+    /* margin-right: 20px; */
+}
+
+button.btn:hover {
+    background: linear-gradient(45deg, #2dc5d6, #01818d) ;
+    color: white;
+}
+
+
+/* last Contact us */
 
 @media (max-width: 576px) {
     .navbar {
@@ -295,6 +575,11 @@ body {
     .carouselControl {
         position: relative;
     }
+
+    .formContainer {
+        display: block ;
+        /* justify-content: space-between; */
+    }
 }
 
 
@@ -329,7 +614,7 @@ body {
         width: 100%;
     }
 
-    .navSignup {
+    /* .navSignup {
         width: 100%;
         margin-left: 0px;
         margin-top: 4px;
@@ -337,6 +622,14 @@ body {
 
     .navSignup:active {
         background-color: #f6e58d;
+    } */
+
+    .carousel-caption h5 {
+        font-size: 18px;
+    }
+
+    .carousel-caption p {
+        font-size: 14px;
     }
 
     .carousel-item {
@@ -364,5 +657,14 @@ body {
     
     .carouselControl {
         position: relative;
+    }
+
+    .button-group {
+        text-align: center !important;
+    }
+
+    .formContainer {
+        display: block !important;
+        /* justify-content: space-between; */
     }
 }
