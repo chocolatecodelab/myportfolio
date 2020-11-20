@@ -430,9 +430,9 @@ body {
     justify-content: space-between;
 }
 
-/* .formpart3 {
-    margin-left: 60px;
-} */
+.formpart3 {
+    margin-right: 60px;
+}
 
 .form-control {
     border-top: none;
@@ -580,6 +580,10 @@ button.btn:hover {
         display: block ;
         /* justify-content: space-between; */
     }
+
+    .formpart3 {
+        margin-right: 0px;
+    }
 }
 
 
@@ -666,5 +670,9 @@ button.btn:hover {
     .formContainer {
         display: block !important;
         /* justify-content: space-between; */
+    }
+
+    .formpart3 {
+        margin-right: 0px !important;
     }
 }

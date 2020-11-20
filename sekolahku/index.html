@@ -19,11 +19,16 @@
     <!-- fontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous">
 
+    <!-- AOS animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../favicon_io/favicon.ico">
+
 
     <!-- local CSS -->
     <link rel="stylesheet" href="style.css">
 
-    <!--  -->
 
 
     <title>SMA Negeri 2 Kandangan</title>
@@ -98,7 +103,7 @@
                     <div class="carousel-caption d-md-block">
                       <h5>Second slide label</h5>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                      <button class="btn btn-primary">Read More</button>
+                      <button class="btn">Read More</button>
                     </div>
                   </div>
                   <div class="carousel-item carousel3">
@@ -106,7 +111,7 @@
                     <div class="carousel-caption d-md-block">
                       <h5>Third slide label</h5>
                       <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                      <button class="btn btn-primary">Read More</button>
+                      <button class="btn">Read More</button>
                     </div>
                   </div>
                 </div>
@@ -133,10 +138,10 @@
           <hr>
         </div>
         <div class="row justify-content-center">
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-up" data-aos-duration="2000">
             <img src="./img/conversation.png" class="aboutGambar" alt="">
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="300" data-aos-easing="ease-in-sine">
             <p><Span>L</Span>orem ipsum dolor sit amet consectetur adipisicing elit. Quae non officia ducimus, fugit eligendi esse fugiat illum qui consectetur error atque recusandae. Impedit cum voluptatum dolores quisquam nihil ducimus voluptatibus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto inventore velit, autem ab alias sunt obcaecati ea dolor, sint quidem animi. <br><br>
               <span>E</span>nim omnis nobis illo! Ipsa unde ipsum debitis saepe! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure quia ipsam neque enim dignissimos! Commodi nostrum dolores aliquid ex, provident quis natus excepturi id repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
@@ -531,7 +536,7 @@
             <div class="owl-carousel owl-theme justify-content-center">
                 <div class="client row">
                     <div class="col-lg-4 col-md-12 client-img">
-                        <img src="./img/testimonials/t1.jpg" alt="img1" class="img-fluid">
+                        <img src="./img/guru/t1.jpg" alt="img1" class="img-fluid">
                     </div>
                     <div class="col-lg-8 col-md-12 about-client">
                         <h4 class="text-uppercase">John Martin</h4>
@@ -541,7 +546,7 @@
                 </div>
                 <div class="client row">
                     <div class="col-lg-4 col-md-12 client-img">
-                        <img src="./img/testimonials/t2.jpg" alt="img2" class="img-fluid">
+                        <img src="./img/guru/t2.jpg" alt="img2" class="img-fluid">
                     </div>
                     <div class="col-lg-8 col-md-12 about-client">
                         <h4 class="text-uppercase">Mac Hill</h4>
@@ -551,7 +556,7 @@
                 </div>
                 <div class="client row">
                     <div class="col-lg-4 col-md-12 client-img">
-                        <img src="./img/testimonials/t1.jpg" alt="img1" class="img-fluid">
+                        <img src="./img/guru/t1.jpg" alt="img1" class="img-fluid">
                     </div>
                     <div class="col-lg-8 col-md-12 about-client">
                         <h4 class="text-uppercase">John Martin</h4>
@@ -561,7 +566,7 @@
                 </div>
                 <div class="client row">
                     <div class="col-lg-4 col-md-12 client-img">
-                        <img src="./img/testimonials/t2.jpg" alt="img2" class="img-fluid">
+                        <img src="./img/guru/t2.jpg" alt="img2" class="img-fluid">
                     </div>
                     <div class="col-lg-8 col-md-12 about-client">
                         <h4 class="text-uppercase">Mac Hill</h4>
@@ -571,7 +576,7 @@
                 </div>
                 <div class="client row">
                     <div class="col-lg-4 col-md-12 client-img">
-                        <img src="./img/testimonials/t1.jpg" alt="img1" class="img-fluid">
+                        <img src="./img/guru/t1.jpg" alt="img1" class="img-fluid">
                     </div>
                     <div class="col-lg-8 col-md-12 about-client">
                         <h4 class="text-uppercase">John Martin</h4>
@@ -581,7 +586,7 @@
                 </div>
                 <div class="client row">
                     <div class="col-lg-4 col-md-12 client-img">
-                        <img src="./img/testimonials/t2.jpg" alt="img2" class="img-fluid">
+                        <img src="./img/guru/t2.jpg" alt="img2" class="img-fluid">
                     </div>
                     <div class="col-lg-8 col-md-12 about-client">
                         <h4 class="text-uppercase">Mac Hill</h4>
@@ -685,6 +690,8 @@
     <script src="./vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
 
     <script src="./vendor/owl-carousel/js/owl.carousel.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script src="script.js"></script>
     <!-- Option 2: Separate Popper.js and Bootstrap JS

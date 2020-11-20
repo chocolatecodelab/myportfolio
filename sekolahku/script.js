@@ -7,18 +7,6 @@ window.addEventListener("scroll", function() {
 })
 
 
-// let button = document.querySelectorAll('.achievement .button-group button');
-// button.forEach(function(e) {
-//     e.addEventListener('click', function() {
-//         button.forEach(function(e) {
-//             e.classList.remove('active');
-//         })
-//         e.classList.add('active');
-
-        
-//     })
-// })
-
 $(document).ready(function () {
 
     let $button = $('.extra .button-group button')
@@ -92,10 +80,7 @@ $(document).ready(function () {
         }
     })
 
-});    
-    // let selector = e.target.attr('data-filter');
-    // document.querySelector('.achievement .gird').isotope({
-    //     filter: selector
-    // });
+});   
 
-    // return false;
+// init
+AOS.init();
