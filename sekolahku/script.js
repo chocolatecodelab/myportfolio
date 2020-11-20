@@ -6,6 +6,16 @@ window.addEventListener("scroll", function() {
     nav.classList.toggle('sticky', scrollY > 0);
 })
 
+$('.page-scroll').on('click', function(event) {
+    var tujuan = $(this).attr('href');
+    var elemenTujuan = $(tujuan);
+
+    $('html, body').animate({
+        scrollTop: elemenTujuan.offset().top - 80
+    }, 750);
+    event.preventDefault();
+});
+
 
 $(document).ready(function () {
 

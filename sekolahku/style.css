@@ -508,6 +508,18 @@ button.btn:hover {
 
 /* last Contact us */
 
+/* footer */
+footer {
+    margin-bottom: 80px;
+}
+
+footer p {
+    margin-top: 70px;
+    color: rgb(49, 49, 49);
+}
+/* last footer */
+
+
 @media (max-width: 576px) {
     .navbar {
         position: fixed;
