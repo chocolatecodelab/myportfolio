@@ -497,7 +497,6 @@ button.btn {
     background: linear-gradient(45deg, #7ed6df, #22a6b3) ;
     border-width: 2px;
     color: white;
-    /* margin-right: 20px; */
 }
 
 button.btn:hover {
@@ -596,6 +595,22 @@ footer p {
     .formpart3 {
         margin-right: 0px;
     }
+
+    .button-group .btn:active {
+        background: linear-gradient(45deg, #2dc5d6, #01818d) ;
+    }
+    .our-project .img:active {
+        /* box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); */
+        filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+    }
+    .card-sosmed a:active {
+        background-color: white;
+        color:  #f6e58d;
+    }
+    button.btn:active {
+        background: linear-gradient(45deg, #2dc5d6, #01818d) ;
+        color: white;
+    }
 }
 
 
@@ -686,5 +701,21 @@ footer p {
 
     .formpart3 {
         margin-right: 0px !important;
+    }
+
+    .button-group .btn:active {
+        background: linear-gradient(45deg, #2dc5d6, #01818d) ;
+    }
+    .our-project .img:active {
+        /* box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); */
+        filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+    }
+    .card-sosmed a:active {
+        background-color: white;
+        color:  #f6e58d;
+    }
+    button.btn:active {
+        background: linear-gradient(45deg, #2dc5d6, #01818d) ;
+        color: white;
     }
 }
