@@ -234,24 +234,30 @@ body {
 }
 
 .visiMisi .parallax {
-    background: url(./img/melnychuk-nataliya-cf-hNAz6k3U-unsplash.jpg);
+    background: url(./img/visi_misi/17.jpg);
     background-attachment: fixed;
     height: 600px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.8;
+    position: relative;
+    z-index: 1;
 }
 
-.parallax {
-    align-items: center;
-    display: flex;
-    justify-content: space-evenly;
+.visiMisi .parallax::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0) );
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
 }
 
-.parallax img {
-    width: 200px;
-    height: 200px;
+.visiMisi .parallax h3 {
+    color: white;
 }
 
 .achievement h2 {
@@ -396,6 +402,8 @@ body {
 
 .teacher .client .about-client p{
     font-size: 14px;
+    font-style: italic;
+    font-weight: 300 !important;
 }
 
 .teacher .owl-carousel .owl-item{
@@ -468,15 +476,24 @@ body {
     background-color: teal;
     color: #fff;
     border: none;
-    height: 400px;
 }
 
 .card-title p {
     font-weight: 500;
 }
 
+/* .card-icon  {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column !important;
+} */
+.visit {
+    display: flex;
+    justify-content: space-between;
+}
+
 .card-sosmed {
-    margin-top: 60px;
+    margin-top: -10px;
 }
 
 .card-sosmed a {
