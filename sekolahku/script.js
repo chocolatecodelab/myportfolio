@@ -1,3 +1,6 @@
+// init
+AOS.init();
+
 var myCarousel = document.querySelector('#carouselExampleCaptions')
 var carousel = new bootstrap.Carousel(myCarousel);
 
@@ -92,5 +95,4 @@ $(document).ready(function () {
 
 });   
 
-// init
-AOS.init();
+
