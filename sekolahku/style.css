@@ -237,6 +237,7 @@ body {
     background: url(./img/visi_misi/17.jpg);
     background-attachment: fixed;
     height: 600px;
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -676,6 +677,7 @@ footer p {
         background: url(./img/visi_misi/17.jpg);
         background-attachment: fixed;
         height: 1000px;
+        width: 100%;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -800,6 +802,7 @@ footer p {
         background: url(./img/visi_misi/17.jpg);
         background-attachment: fixed;
         height: 1000px;
+        width: 100%;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
