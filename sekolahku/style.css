@@ -675,9 +675,10 @@ footer p {
 
     .visiMisi .parallaxContainer {
         background: url(./img/visi_misi/17.jpg);
-        background-attachment: fixed;
+        background-attachment: scroll;
         height: 1000px;
-        width: 100%;
+        width: 100vh;
+        left: 11.5px;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -800,7 +801,7 @@ footer p {
 
     .visiMisi .parallaxContainer {
         background: url(./img/visi_misi/17.jpg);
-        background-attachment: fixed;
+        background-attachment: fixed !important;
         height: 1000px;
         width: 100%;
         background-position: center;
